@@ -12,10 +12,12 @@ const Home = () => {
         <h1 className="home__name">Shaghayegh Asadi</h1>
         <span className="home__education">I'm a front-End developer</span>
         <span>
-
           <HeaderSocials />
-          
-          <a href="#contact" className="btn">
+
+          <a
+            href="https://1drv.ms/w/s!Aug2_MWD-VpLg0b0IGPBTpEIzB-U?e=cFJDuF"
+            className="btn"
+          >
             Contact Me
           </a>
           <ScrollDown />

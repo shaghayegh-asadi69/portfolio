@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
-import Image from "../../assets/1.jpg";
+import Image from "../../assets/FLBD4985.JPG";
+import AboutBox from "./AboutBox"
 
 const About = () => {
   return (
@@ -17,7 +18,10 @@ const About = () => {
               Kingdom. I have enrolled a course at Tech-Educators MERN bootcamp,
               and I am passionate about designing websites.{" "}
             </p>
-            <a href="" className="btn">
+            <a
+              href="https://1drv.ms/w/s!Aug2_MWD-VpLg0b0IGPBTpEIzB-U?e=cFJDuF"
+              className="btn"
+            >
               Download CV
             </a>
           </div>
@@ -54,6 +58,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <AboutBox/>
     </section>
   );
 };
