@@ -2,17 +2,17 @@ const Menu = [
   {
     id: 1,
     title: "planet donation",
-    category: "Design",
+    category: "Creative",
   },
   {
     id: 2,
     title: "Spotifind",
-    category: "Front end",
+    category: "Design",
   },
   {
     id: 3,
     title: "Beasts",
-    category: "Design",
+    category: "art",
   },
 ];
 export default Menu;

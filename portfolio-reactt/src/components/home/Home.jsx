@@ -15,7 +15,7 @@ const Home = () => {
           <HeaderSocials />
 
           <a
-            href="https://1drv.ms/w/s!Aug2_MWD-VpLg0b0IGPBTpEIzB-U?e=cFJDuF"
+            href="#"
             className="btn"
           >
             Contact Me
