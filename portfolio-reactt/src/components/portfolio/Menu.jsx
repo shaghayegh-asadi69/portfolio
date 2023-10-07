@@ -8,6 +8,7 @@ const Menu = [
     id: 2,
     title: "Spotifind",
     category: "Design",
+    
   },
   {
     id: 3,

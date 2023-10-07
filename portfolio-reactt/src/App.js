@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Sidebar/>
-      <main className='main'>
+        <main className='main'>
         <Home />
         <About />
         <Portfolio />

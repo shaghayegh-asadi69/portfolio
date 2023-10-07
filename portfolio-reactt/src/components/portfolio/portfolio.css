@@ -13,3 +13,12 @@
 .work__item:hover {
   color: var(--first-color);
 }
+
+.work__button{
+  color: #fff;
+  position: absolute;
+  bottom: 1.5rem;
+  font-size: var(--h3-font-size0);
+  display: block;
+  background-color: #ffd15c;
+}*/
