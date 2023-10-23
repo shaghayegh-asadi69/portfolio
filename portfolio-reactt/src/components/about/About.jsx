@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
 import Image from "../../assets/FLBD4985.JPG";
-import AboutBox from "./AboutBox"
-
+import AboutBox from "./AboutBox";
+import ScrolDown from "./ScrolDown";
 const About = () => {
   return (
     <section className="about container section" id="about">
@@ -15,11 +15,11 @@ const About = () => {
           <div className="about__info">
             <p className="about__description">
               I am Shaghayegh Asadi, Junior web developer from Liverpool, United
-              Kingdom. I have enrolled a course at Tech-Educators MERN bootcamp,
-              and I am passionate about designing websites.{" "}
+              Kingdom. I have compeleted a course at Tech-Educators MERN bootcamp,
+              and I am passionate about designing websites and bringing new ideas to life.{" "}
             </p>
             <a
-              href="https://1drv.ms/w/s!Aug2_MWD-VpLg0b0IGPBTpEIzB-U?e=cFJDuF"
+              href="https://1drv.ms/w/s!Aug2_MWD-VpLg0b0IGPBTpEIzB-U?e=cFJDuF" 
               className="btn"
             >
               Download CV
@@ -58,7 +58,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <AboutBox/>
+      <AboutBox />
+      <ScrolDown/>
     </section>
   );
 };

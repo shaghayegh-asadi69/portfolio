@@ -14,7 +14,8 @@ const Portfolio = () => {
   
 
   return (
-    <section className="work container section" id="work">
+    <section className="work container section " id="work">
+
       <h2 className="section__title">Recent Works</h2>
 
       <div className="work__filters">
@@ -41,7 +42,7 @@ const Portfolio = () => {
               </div>
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button" >
+              <a href="src" className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a>
             </div>
