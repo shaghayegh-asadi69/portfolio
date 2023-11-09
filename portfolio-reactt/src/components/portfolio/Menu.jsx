@@ -3,13 +3,13 @@ const Menu = [
     id: 1,
     title: "planet donation",
     category: "Creative",
-    src: "https://github.com/shaghayegh-asadi69/planet-project",
+    src: " https://shaghayegh-asadi69.github.io/planet-project/"
   },
   {
     id: 2,
     title: "Spotifind",
     category: "Design",
-    src: "https://spotifind-search.netlify.app/",
+    src: "https://spotifind-search.netlify.app/"
   },
   {
     id: 3,
@@ -21,16 +21,19 @@ const Menu = [
     id: 4,
     title: "Salmon cookies",
     category: "Creative",
+    src: "",
   },
   {
     id: 5,
     title: "Calculator",
     category: "Design",
+    src: "",
   },
   {
     id: 6,
     title: "Calandar",
     category: "Design",
+    src:"",
   },
 ];
 export default Menu;

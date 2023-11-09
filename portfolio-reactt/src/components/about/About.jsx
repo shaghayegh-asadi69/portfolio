@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import Image from "../../assets/FLBD4985.JPG";
 import AboutBox from "./AboutBox";
-import ScrolDown from "./ScrolDown";
 const About = () => {
   return (
     <section className="about container section" id="about">
@@ -59,7 +58,6 @@ const About = () => {
         </div>
       </div>
       <AboutBox />
-      <ScrolDown/>
     </section>
   );
 };

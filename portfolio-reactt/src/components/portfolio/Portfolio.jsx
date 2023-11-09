@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./portfolio.css";
-import Menu from "./Menu";
+import Menu from "./Menu.jsx";
 
 const Portfolio = () => {
   const [items, setItems] = useState(Menu);
@@ -33,24 +33,20 @@ const Portfolio = () => {
         </span>
       </div>
       <div className="work__container grid">
-        {items.map((elem) => {
-          const { id, title, category } = elem;
-          return (
-            <div className="work__card" key={id}>
-              <div className="work__thumbnail">
-                <div className="work__mask"></div>
-              </div>
-              <span className="work__category">{category}</span>
-              <h3 className="work__title">{title}</h3>
-              <a href="src" className="work__button">
-                <i className="icon-link work__button-icon"></i>
-              </a>
-            </div>
-          );
-        })}
+        {Menu.map(menu =>
+          <div className="work__card" key={menu.id}>
+            <span className="work__category">{menu.category}</span>
+            <h3 className="work__title">{menu.title}</h3>
+            <a href={menu.src} className="work__button">
+              <i className="icon-link work__button-icon"></i>
+            </a>
+          </div>
+        )};
+      
       </div>
+        
     </section>
   );
-};
+}
 
 export default Portfolio;
