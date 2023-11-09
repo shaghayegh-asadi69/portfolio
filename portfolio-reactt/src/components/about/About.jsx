@@ -18,7 +18,7 @@ const About = () => {
               and I am passionate about designing websites and bringing new ideas to life.{" "}
             </p>
             <a
-              href="https://1drv.ms/w/s!Aug2_MWD-VpLg0b0IGPBTpEIzB-U?e=cFJDuF" 
+              href="#" 
               className="btn"
             >
               Download CV
