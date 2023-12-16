@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./about.css";
 import Image from "../../assets/FLBD4985.JPG";
@@ -14,13 +15,11 @@ const About = () => {
           <div className="about__info">
             <p className="about__description">
               I am Shaghayegh Asadi, Junior web developer from Liverpool, United
-              Kingdom. I have compeleted a course at Tech-Educators MERN bootcamp,
-              and I am passionate about designing websites and bringing new ideas to life.{" "}
+              Kingdom. I have compeleted a course at Tech-Educators MERN
+              bootcamp, and I am passionate about designing websites and
+              bringing new ideas to life.{" "}
             </p>
-            <a
-              href="#" 
-              className="btn"
-            >
+            <a href="#" className="btn">
               Download CV
             </a>
           </div>
