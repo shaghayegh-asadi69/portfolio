@@ -81,6 +81,7 @@
 }
 .about__img{
     width: 100px;
+    border-radius: 20px;
 }
 .btn{
     margin-bottom: 15px;

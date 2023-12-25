@@ -14,12 +14,12 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Shaghayegh Asadi, Junior web developer from Liverpool, United
+              I am Shaghayegh Asadi, I live in Liverpool, United
               Kingdom. I have compeleted a course at Tech-Educators MERN
               bootcamp, and I am passionate about designing websites and
               bringing new ideas to life.{" "}
             </p>
-            <a href="#" className="btn">
+            <a href="/cvfinal.pdf" className="btn">
               Download CV
             </a>
           </div>

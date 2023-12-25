@@ -34,3 +34,7 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
 }
+.logo{
+    width: 50px;
+    border-radius: 10px;
+}
