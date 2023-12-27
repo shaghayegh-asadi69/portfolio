@@ -13,15 +13,15 @@ const Menu = [
   },
   {
     id: 3,
-    title: "Beasts",
+    title: "corned-fairy",
     category: "Art",
-    src: "",
+    src: "https://corned-fairy.netlify.app/"
   },
   {
     id: 4,
     title: "Salmon cookies",
     category: "Creative",
-    src: "",
+    src: "5",
   },
   {
     id: 5,

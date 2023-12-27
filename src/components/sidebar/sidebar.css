@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    background: var(--body-color);
+    background: rgb(235, 146, 37);
     border-right: 1px solid rgba(0,0,0,0.05);
     padding: 2.5rem;
     width: 110px;
@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
+    
 }
 .nav__list {
     display: flex;
@@ -25,7 +26,7 @@
     transition: .3s;
 }
 .nav__link:hover{
-        color: hsl(43, 100%, 68%);
+        color: rgb(235, 146, 37);
 
 }
 .copyright{
@@ -37,4 +38,8 @@
 .logo{
     width: 50px;
     border-radius: 10px;
+    
+}
+.icon-home,.icon-user-following{
+    color: whitesmoke;
 }

@@ -14,10 +14,19 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am Shaghayegh Asadi, I live in Liverpool, United
-              Kingdom. I have compeleted a course at Tech-Educators MERN
-              bootcamp, and I am passionate about designing websites and
-              bringing new ideas to life.{" "}
+              Hello there! I'm Shaghayegh Asadi, a resident of the vibrant city
+              of Liverpool in the United Kingdom. I recently emerged
+              triumphantly from the coding trenches, having conquered the
+              challenges of a comprehensive course at Tech-Educators MERN
+              bootcamp. What sets me apart? Well, besides my impressive ability
+              to dodge raindrops in Liverpool, I've developed a fervent passion
+              for designing websites. I see websites not just as lines of code
+              but as canvases waiting for creativity to splash onto them. My
+              mission? To turn digital landscapes into captivating experiences.
+              Whether I'm orchestrating a symphony of code or bringing fresh
+              ideas to life, I'm your go-to enthusiast for all things web
+              design. Let's transform concepts into reality and make the
+              internet a more visually exciting place, one pixel at a time!.{" "}
             </p>
             <a href="/cvfinal.pdf" className="btn">
               Download CV
@@ -27,7 +36,7 @@ const About = () => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
+                <h3 className="skills__name">UI/UX design</h3>
                 <span className="skills__number">90%</span>
               </div>
               <div className="skills__bar">
@@ -37,7 +46,7 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX design</h3>
+                <h3 className="skills__name">Development</h3>
                 <span className="skills__number">80%</span>
               </div>
               <div className="skills__bar">

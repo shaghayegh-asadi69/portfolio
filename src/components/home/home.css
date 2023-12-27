@@ -9,6 +9,7 @@
 .intro {
   max-width: 540px;
   text-align: center;
+  
 }
 .home__img {
   margin: 1.5rem;
@@ -80,4 +81,7 @@
   left: 50%;
   transform: translate(-50%);
   animation: ani-mouse 2s linear infinite;
+}
+.home__education{width: 120px;
+  padding-top: 50px;
 }
