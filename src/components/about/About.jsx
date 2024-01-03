@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              Hello there! I'm Shaghayegh Asadi, a resident of the vibrant city
+              Hello there! I'm Shaylee, a resident of the vibrant city
               of Liverpool in the United Kingdom. I recently emerged
               triumphantly from the coding trenches, having conquered the
               challenges of a comprehensive course at Tech-Educators MERN
@@ -26,9 +26,9 @@ const About = () => {
               Whether I'm orchestrating a symphony of code or bringing fresh
               ideas to life, I'm your go-to enthusiast for all things web
               design. Let's transform concepts into reality and make the
-              internet a more visually exciting place, one pixel at a time!.{" "}
+              internet a more visually exciting place, one pixel at a time!{" "}
             </p>
-            <a href="/cvfinal.pdf" className="btn">
+            <a href="/cvfin.pdf" className="btn">
               Download CV
             </a>
           </div>
