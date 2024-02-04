@@ -28,7 +28,7 @@ const About = () => {
               design. Let's transform concepts into reality and make the
               internet a more visually exciting place, one pixel at a time!{" "}
             </p>
-            <a href="/cvfin.pdf" className="btn">
+            <a href="/dvcv.pdf" className="btn">
               Download CV
             </a>
           </div>

@@ -11,7 +11,7 @@ const Home = () => {
         <img src={Me} alt="" className="home__img" />
         <h1 className="home__name">Shaghayegh Asadi</h1>
         <span className="home__education">
-          Meet Shaylee, the self-proclaimed coding wizard .
+          Meet Shaghayegh, the self-proclaimed c0ding witch.
         </span>
         <span>
           <HeaderSocials />
